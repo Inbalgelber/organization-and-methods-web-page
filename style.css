@@ -1,0 +1,61 @@
+header {background-color: indigo; position: fixed; width: 100%; color: whitesmoke; top: 0px;}
+header h1 {float: right; margin: 10px; padding-bottom: 0px; margin-bottom: 0px;}
+header p {float: left; margin-left: 30px; text-align: left; padding-top: 0px; margin-top: 0px;}
+
+
+body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding-right: 10px;}
+body p, body ul {width:  1100px; }
+h2, h3 {color:rgb(76, 118, 167); text-shadow: 1px 1px 2px grey;}
+h2 { margin-top: 20px; }
+h5 {color: indigo; margin: 0px; font-size: 18px; padding-top: 0px;background-color:  }
+a:hover{color: rebeccapurple;}
+hr {height: 10px; border: 0; box-shadow: 0 10px 10px -10px #bbbaba inset;}
+
+
+#about_osh p{margin-top: 60px; }
+#about_osh img {width: 70px; height: 70px;}
+#about_osh a {font-style: italic; font-size: smaller; color:gray;float: left;
+     position: relative; bottom: 120px; left: 130px;}
+
+
+
+#icons_img {float: right; width:100%;}
+#icons_img img {border: thin solid rgb(75, 0, 130); 
+    border-radius: 10%; background-color: rgb(243, 250, 253);bottom: 0px; 
+    width: 100px; height: 100px; margin-left: 40px;}
+#icons_names {float: right;  width:100%; margin-bottom: 40px; font-size: 14px; color: indigo}
+#icons_names a {margin-left: 55px;}
+
+table {text-align: right; padding: 5px;  text-indent: 5px;}
+thead, .sub {background-color: rgb(14, 71, 97); color: snow;}
+.even::before, .odd::before {content: " - ";  }
+.even {background-color: rgb(223, 219, 219); font-weight: lighter;}
+.odd {background-color:rgb(245, 252, 255);font-weight: lighter; }
+
+
+#exp {color: indigo; }
+#remark {font-size: 80%; font-style: italic; color: rgb(30, 99, 30) }
+
+#about_me h3 {padding: 0px 15px; width: 300px;}
+#about_me li {list-style: square;}
+#about_me img {float: right; margin: 0px 10px 0px 20px; width: 100px; height: 140px;}
+#about_me ul {float: right; position: relative; bottom: 20px;}
+#about_me::after {content: ""; display: block; clear: both;}
+
+#details img {width: 5%; height: 5%; margin-left: 20px; margin-bottom: 30px; }
+#details li {margin-right: -25px;}
+.str_det, .rol_det, .pro_det, .rou_det, .mea_det, .com_det , .sta_det {float: right;}
+#roles::before, #processes::before, #routines::before, #measurments::before, #standartization::before,
+#compensation::before, #contact::before {content: " "; display: block; clear: both;}
+#details p, #details ul {padding-top: 0px; margin-top: 0px;}
+#details h3 {top: 0px; padding: 0px;text-decoration: underline;}
+.rol_det a , .pro_det a , .mea_det a{font-style: italic; font-size: smaller;
+     color: rgb(127, 176, 199);  font-weight: lighter;}
+
+
+#contact::before  {content: ""; display: block; clear: both;}
+#contact {margin-bottom: 80px;}
+input {padding: 10px; margin-bottom: 30px;}
+.a {width: 200px; }
+.b {width: 600px;}
+.c {width: 110px;}
