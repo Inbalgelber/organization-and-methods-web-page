@@ -1,2 +1,2 @@
 # organization-and-methods-web-page
-web page about organization and methods
+Organization and methods web page ---> project at She-codes WEB program
